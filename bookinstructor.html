@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Your Gym Instructor</title>
+    <link rel="stylesheet" href="./assets/css/styleinstruct.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Train with the Best</h1>
+      <p>Book your personal gym instructor today</p>
+      <a href="#booking" class="cta-button">Get Started</a>
+    </header>
+
+    <section class="instructors">
+      <h2>Meet Our Instructors</h2>
+      <div class="profile">
+        <img src="alex.jpg" alt="Alex" />
+        <h3>Alex</h3>
+        <p>Strength & Conditioning Expert</p>
+      </div>
+      <div class="profile">
+        <img src="jordan.jpg" alt="Jordan" />
+        <h3>Jordan</h3>
+        <p>Cardio & HIIT Specialist</p>
+      </div>
+      <div class="profile">
+        <img src="taylor.jpg" alt="Taylor" />
+        <h3>Taylor</h3>
+        <p>Yoga & Flexibility Coach</p>
+      </div>
+    </section>
+
+    <section id="booking" class="booking-form">
+      <h2>Book Your Session</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="date" required />
+        <input type="time" required />
+        <select required>
+          <option value="">Select Instructor</option>
+          <option value="alex">Alex</option>
+          <option value="jordan">Jordan</option>
+          <option value="taylor">Taylor</option>
+        </select>
+        <select required>
+          <option value="">Workout Type</option>
+          <option value="cardio">Cardio</option>
+          <option value="strength">Strength</option>
+          <option value="yoga">Yoga</option>
+        </select>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 FitZone. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (min-width: 768px) {
+
+  .navbar {
+    background-color: yellow;  
+  /*background:transparent;*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left:0;
+  margin: 0px;
+  padding:10px 70px 10px 70px;
+  width: 100%; /* Full width */
+  right: 0;
+}
+ 
+}
+
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+
+  .navbar {
+     background-color: red; 
+  /*background:transparent;*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left:0;
+  margin: 0px;
+  padding:10px 70px 10px 70px;
+  width: 100%; /* Full width */
+  right: 0;
+  z-index: 3;
+  height:50px;
+}
+
+ 
+}
+
+
+/* For devices with a minimum width of 320px (small) */
+@media screen and (min-width: 320px) {
+ 
+  
+/*
+nav{    
+  width: 100%;
+  background-color: red ;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+*/
+ nav {
+     width: 100%;
+      background-color: green ;
+        display:block;
+        position:relative;
+        box-shadow:none;
+        width:fit-content;
+        padding-right: 1rem;
+    }
+
+}

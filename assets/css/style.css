@@ -1,0 +1,433 @@
+
+/* global styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+ }
+
+
+
+ table {
+  border-spacing: 0;
+  width: 100%;
+  border-radius: 5px;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px 20px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #1F89EF; 
+  color: white;
+}
+
+tr:hover {
+  background-color: #f3f3f3;
+}
+
+tr {
+  background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+  background-color: #e9e9e9
+}
+
+
+/*
+tr:nth-child(odd) {
+  background-color: #ffffff
+}
+*/
+
+/* main Home section */
+main {
+  background-color:lightblue;
+  /* Make main element take up any surplus space  to push footer down */
+  flex: 1 0 auto;
+  margin-top: 47px;
+  width:100%
+}
+
+.mapcontainer {
+  width:100%;
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+#gymmap {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.imghome {
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  margin-left:  10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+ /* about us section */
+
+ .custom-button {
+    background-color: #1f7798;
+    color:white;
+    border: #1f7798;
+}
+.custom-button:hover {
+    background-color: #1d6d8a;
+    color:white;
+    border: #1d6d8a;
+}
+
+#about .card-title {
+   color: #1f7798; /* mid-blue */  
+} 
+
+h1, h2 {
+    font-family: 'Poppins', serif;
+    color:  #184f63; /* mid-blue */
+}
+
+.sharp-corners, .sharp-corners * {
+    border-radius: 0 !important;
+}
+
+ 
+#about .btn-outline-secondary :hover {
+  color: #1f7798; /* mid-blue */
+}
+
+#about {
+   background-color: #a4c2d1; /* egg blue */
+}
+
+/* Ensure all card texts are the same height */
+#about .card-text {
+    min-height: 120px;
+}
+
+
+#about {
+    background-color: white; /* white */
+    
+}
+
+ /* gym class section */
+
+#gymclass {
+    background-color: #a4c2d1; /* egg blue */
+    text-align: center;
+    padding: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#gymclass #desc {
+  background-color: lavender;
+  align-content: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.col1 {
+    background-color: lavender;
+}
+.col2 {
+    background-color: lavenderblush;
+}
+#gymclass p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #184f63; 
+}
+
+
+#gymclass h3 {
+    color: black; 
+    font-weight: bold;
+}
+
+ /*navbar log section */
+.logocontainer {
+    height: 50px;
+    width: 50px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;  
+}
+
+#logo {
+    background-image: url("./assets/images/gymlogo.png") ;
+}
+
+
+ /*Navbar section */
+.navbar {
+  background-color: #1F89EF; 
+  margin-top: 0;
+  padding: 1rem 0;
+  font-weight: bold;
+  position: fixed;
+  height:50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.navbar a {
+ color: white; 
+  margin-left: 55px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.dropdown-item {
+  background-color: #1F89EF;  
+}
+
+.dropdown-item a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+
+/*footer section*/
+#aboutfooter  {
+   background-color: #f4f7fc;
+   height: 200px ;
+   text-align: center;
+}
+
+#aboutfooter > h1 {
+   text-align: center;
+}
+
+#social-networks {
+   text-align: center;
+   padding: 20px 0;
+   display:flex;
+   justify-content: space-evenly;
+   /* remove the bullet in list next to the icons */ 
+   list-style-type: none;
+}
+
+#social-networks i {
+   font-size: 160%;
+   padding: 5%;
+   color:#3a3a3a;
+}
+
+
+
+/* contact section */
+#contact-form {
+    background-color: #a4c2d1; /* egg blue */
+    padding: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#weekday:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#weekday {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.centerelement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+.discount {
+   background-color: pink;
+   color:#1F89EF;
+} 
+
+.monthlyoffer {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top:10px;
+}
+
+.gymoffer {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    z-index: 2;
+    /*width: 200px;*/
+    max-width:100%;
+    height: 50px;
+    text-align: center;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deals{
+  padding-top: 20px;
+  word-wrap: break-word;
+  width: 400px;
+  height: 150px;
+  border-radius: 20px;
+  border: solid 1px black;
+  text-align: center;
+  padding-bottom: 20px;
+  align-items: center;;
+   
+}
+
+/* larger devices(laptops , desktops 1200 and up)  */
+@media screen and (min-width:1200px) {
+
+  
+}
+
+/* For devices with a minimum width of 768px (Medium) */
+@media screen and (min-width: 768px) {
+
+  
+}
+
+
+
+/* For devices with a minimum width of 320px (small) */
+@media screen and (min-width: 320px) {
+ 
+  /*
+  nav {
+    right:0;
+    padding-top: 0;
+    padding-left: 0;
+    top:0;
+    
+  }
+
+  navbar {
+    
+    right:0;
+    padding-top: 0;
+    padding-left: 0;
+    top:0;
+    
+  }
+    
+
+  .navbar navbar-expand-lg {
+    background-color: green;
+   
+  }
+ */
+
+ .navbar span.navbar-toggler-icon {
+   height:32px;
+   padding-bottom: 5px;
+  }
+  .navbar button.navbar-toggler {
+    width:56px;
+    height:32px;
+    background-color: #ddd;
+
+  }
+
+  .navbar div.container-fluid {
+     background-color:#1F89EF;
+     color:white;
+     top:0;
+     right:0;
+     padding-right:25px;
+     padding-top: 0;
+     padding-bottom: 14px;
+     font-weight: normal;
+     font-size:smaller;
+    
+  }
+
+   /*navbar log section */
+   .logocontainer {
+      height: 32px;
+      width: 56px;
+      
+      
+      position: fixed;
+      top: 16px;
+      z-index: 1;  
+}
+
+ nav {
+  
+ }
+
+/*
+nav{    
+  width: 100%;
+  background-color: red ;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+*/
+ 
+
+}
+
+
+
+
