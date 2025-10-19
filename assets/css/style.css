@@ -90,7 +90,6 @@ h1, h2 {
 }
 
  /* gym class section */
-
 #gymclass {
     background-color: #a4c2d1; /* egg blue */
     text-align: center;
@@ -195,31 +194,12 @@ h1, h2 {
 }
 
 #social-networks i {
-   font-size: 160%;
+  /* font-size: 160%;*/
    padding: 5%;
    color:#3a3a3a;
 }
 
 
-
-/* contact section */
-#contact-form {
-    background-color: #a4c2d1; /* egg blue */
-    padding: 55px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-#signup-form {
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-    background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
-}
 
 #weekday:hover {
     background-color: red;
@@ -248,8 +228,8 @@ h1, h2 {
     
   }
 .discount {
-   background-color: pink;
-   color:#1F89EF;
+   background-color: #161153;
+   color:#F7F8FC;
 } 
 
 .monthlyoffer {
@@ -322,6 +302,30 @@ h1, h2 {
 /* For devices with a minimum width of 320px (small) */
 @media screen and (min-width: 320px) {
 
+  #weekday:hover {
+    background-color: red;
+    cursor: pointer;
+    font-family: 'Slabo';
+    font-size:xx-small;
+}
+
+  h1 {
+     font-family: 'Slabo';
+     font-size:small;
+  }
+  
+  #aboutfooter > h1 {
+     font-family: 'Slabo';
+     font-size:x-large;
+     text-align: center;
+
+  }
+
+  p{
+     font-family: 'Slabo';
+     font-size:xx-small;
+  }
+
  .navbar span.navbar-toggler-icon {
    height:32px;
    padding-bottom: 5px;
@@ -349,40 +353,156 @@ h1, h2 {
    .logocontainer {
       height: 32px;
       width: 56px;
-      
-      
       position: fixed;
       top: 16px;
       z-index: 1;  
 }
 
+}
+/*====Membership=====*/
 
- 
+.marginRow{
+   margin-bottom:0px !important; 
+   }
+.gymdeal-saver {
+  border: 5px solid violet;
+  
+  font-size:xx-small;
+  /*font-family: 'Slabo';*/
+  margin-bottom:0px !important; 
+}
+
+
+.alterfont  {
+  font-family: 'Slabo';
+  font-size:xx-small;
+   
+}
+
+.gymdealtype {
+  /*border: 5px solid violet;
+  background-color: #E5EFFA;
+  font-family: 'Slabo';*/
+  border-radius: 12px;
+  background-color: #E5EFFA;
+  font-size:xx-small;
+  margin-bottom:0px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  /*transition: transform 0.3s; */ 
+}
+
+#dealsaver  p {
+  white-space:nowrap;
+}
+
+.gymdealtype:hover {
+  /*transform: translateY(-5px);*/
+  #ultimateselect{ display:block; }
+}
+
+.savertype {
+  border: 2px solid violet;
+  text-align: center;
+}
+
+.happytype:hover  {
+  background-color: bisque;
+  
+}
+
+.ultimatetype:hover {
+  background-color:gold;
+}
+
+.happytype {
+  border: 2px solid red;
+  text-align: center;
 
 }
 
-/*testimonial */
+.ultimatetype {
+  border: 2px solid blue;
+  text-align: center;
+}
 
-  .testimonial-card {
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        padding: 20px;
-        transition: transform 0.3s;
-        height: 100%;
-      }
-      .testimonial-card:hover {
-        transform: translateY(-5px);
-      }
-      .user-img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-      .testimonial-text {
-        font-style: italic;
-        color: #555;
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.gymdealcard-text {
+  font-style: italic;
+  color: #555;
+   
+}
+
+/* GyM gallery */
+ h1 {
+        font-size: 50px;
+        word-break: break-all;
       }
 
+      .row {
+        margin: 8px -16px;
+      }
+
+      /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+        height:100%;
+      }
+
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Content */
+      .content {
+        background-color: white;
+        padding: 10px;
+      }
+
+      /* makes a two column-layout instead of four columns */
+      @media screen and (max-width: 900px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      /*makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img {
+  width:  200px;
+  height: 100px;
+  background-image:url('./assets/images/image1.webp');
+  object-fit: cover;
+}
 

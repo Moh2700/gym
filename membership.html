@@ -25,25 +25,60 @@
     />
   </head>
 
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img
-            class="logocontainer"
-            id="logo"
-            alt="Logo"
-            src="./assets/images/favicon/gymlogo.png"
-          />
-        </a>
-      </div>
-    </nav>
-  </header>
+   <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logocontainer"
+              id="logo"
+              alt="Logo"
+              src="./assets/images/favicon/gymlogo.png"
+              width="50"
+              height="50"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
   <body>
     <main>
       <div class="container-fluid">
-        <h1>Membership Plans</h1>
+        <h1 style="font-size: x-large;">Membership Plans</h1>
         <div class="row centerelement">
           <div class="gymoffer discount">
             <p>10% Discount</p>
@@ -55,7 +90,7 @@
 
       <div class="row" style="background-color: lavender">
         <div class="col-sm-9 centerelement">
-          <h1>Join the FeelGoodGym Today</h1>
+          <h1 style="font-size: x-large;">Join the FeelGoodGym Today</h1>
 
           <p><i class="fa-solid fa-dumbbell"></i> FeelGoodGym Mansfield</p>
           <p><i class="fa-solid fa-map-marker-alt"></i>12 Gym Road Street</p>
@@ -76,7 +111,7 @@
 
       <div class="row" style="background-color: #a4c2d1">
         <div class="col-sm-9 centerelement">
-          <h1>Great Deals Waiting at FeelGoodGym Today</h1>
+          <h1 style="font-size: x-large;">Great Deals Waiting at FeelGoodGym Today</h1>
 
           <p>
             Our Student Membership plan is designed for students aged 18-25,
@@ -96,6 +131,7 @@
           </ul>
           <p><i class="fa-solid fa-dumbbell"></i> FeelGoodGym Mansfield</p>
         </div>
+        
         <div class="col-sm-3">
           <div class="row centerelement">
             <div class="monthlyoffer discount">
@@ -105,98 +141,261 @@
         </div>
       </div>
 
-      <div class="row" style="background-color: lavender">
-        <h1 class="centerelement">Exclusive Offers for Students</h1>
-        <div class="col-sm-6">
-          <div class="row centerelement">
-            <div class="deals discount">
-              <p>Absolutely No Joining Fee</p>
-              <p>===========================================</p>
-              <p>Save up £20. Hurry no time to waste</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="row centerelement">
-            <div class="deals discount">
-              <p>"20% off your 12 months joining the GYM</p>
-              <p>===========================================</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
       <br />
       <br />
-      <div class="row" style="background-color: lavender">
-        <div class="col-sm-6">
-          <div class="row centerelement">
-            <div class="deals discount">
-              <p style="align-items: center">
-                Bring a friend and 10% shall be in your pocket
+
+      <div class="row g-4">
+          <h1 class="centerelement" style="font-size: x-large;">Exclusive Offers for Students</h1>
+          
+          <div class="col-md-6 col-lg-6"  >
+            <div class="gymdealtype h-100 savertype"  >
+              <p class="gymdeal-text"  >
+               Absolutely No Joining Fee
+                 <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
               </p>
-              <p>=======================================</p>
+              
+              <div class="d-flex align-items-center mt-4">
+               
+                <div>
+                  <h6 class="mb-0">Save up £20. Hurry no time to waste</h6>
+                  
+                </div>
+              </div>
             </div>
           </div>
+
+          
+          <div class="col-md-6 col-lg-6">
+           <div class="gymdealtype h-100 happytype"  >
+             <p class="gymdeal-text"  >
+                 20% off your 12 months joining the GYM
+                  <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div>
+                  <h6 class="mb-0">State of the art modern GYM</h6>
+                  <small class="text-muted">Dont miss it</small>
+                </div>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-md-6 col-lg-6"  >
+            <div class="gymdealtype h-100 ultimatetype"  >
+              <p class="gymdeal-text"  >
+               Special in House Energy Drink
+                 <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              
+              <div class="d-flex align-items-center mt-4">
+               
+                <div>
+                  <h6 class="mb-0">Save up to £40 today</h6>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-6 col-lg-6">
+           <div class="gymdealtype h-100 savertype"  >
+             <p class="gymdeal-text"  >
+                 Bring a friend and 10% shall be in your pocket
+                  <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div>
+                  <h6 class="mb-0">Jaccuzi</h6>
+                  <small class="text-muted">Swimmin pool</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="container py-5">
+       
+        <div class="text-center mb-5">
+          <h1 style="font-size: x-large;" >Gym Deals at FeelGoodGym</h1>
+          <p class="text-muted" style="font-size: x-large;">
+            Fantastic deals awaiting for you when you join in
+          </p>
         </div>
-        <div class="col-sm-6">
-          <div class="row centerelement">
-            <div class="deals discount">
-              <p>Special in House Energy Drink</p>
-              <p>======================================</p>
+
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4"  >
+            <div class="gymdealtype h-100 savertype"  >
+              <p class="gymdeal-text"  >
+                Students: 20% off 9 & 12-month savers
+                 <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              
+              <div class="d-flex align-items-center mt-4">
+               
+                <div>
+                  <h6 class="mb-0">Save up to £40 today</h6>
+                  
+                </div>
+              </div>
             </div>
           </div>
+
+          
+          <div class="col-md-6 col-lg-4">
+           <div class="gymdealtype h-100 happytype"  >
+             <p class="gymdeal-text"  >
+                Students: 20% off 9 & 12-month savers
+                  <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div>
+                  <h6 class="mb-0">Text missing</h6>
+                  <small class="text-muted">Text missing</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-6 col-lg-4">
+           <div class="gymdealtype h-100 ultimatetype"  >
+             <p class="gymdeal-text"  >
+                Students: 20% off 9 & 12-month savers
+                  <hr class ="mb-0">
+                <i style = "float: right;" class="fa-solid fa-graduation-cap"></i>
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                
+                <div>
+                  <h6 class="mb-0">Text Missing</h6>
+                  <small class="text-muted">Text missing</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+
+      </div>
+
+      <div class="container-fluid">
+        <div class="row g-3">
+          <div id="dealsaver" class="col-4 gymdealtype h-100 savertype " >
+            <div class="p-12 ">
+              <p class="gymdeal-text" style="color: blue; " >
+                Gym Benefits
+              </p>
+            </div>
+          </div>
+
+          <div id="dealsaver" class="col-4 gymdealtype h-100 happytype " >
+            <div class="p-12 ">
+              <p class="gymdeal-text" style="color: blue; " >
+                HappyDeal
+              </p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+          </div>
+
+          <div id="dealsaver" class="col-4 gymdealtype h-100 ultimatetype " >
+            <div class="p-12 ">
+              <p class="gymdeal-text" style="color: blue; " >
+                Ultimate Deal
+              </p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+          </div>
+
+           <div id="dealsaver" class="col-4 gymdealtype h-100 savertype " >
+            <div class="p-12 ">
+             
+                <p>Free Energy Drink</p>
+                <p>Multi Gym Access</p>
+                <p>Referral Discount</p>
+                <p>Concession Rate</p>
+                <p>Annual Payment</p>
+                <p>Off-Peak-Rate</p>
+                <p>Sauna</p>
+                <p>Swimmingpool</p>
+                <p>No Contract</p>
+            </div>
+          </div>
+
+          <div id="dealsaver" class="  col-4 gymdealtype h-100 happytype" >
+            <div class="p-12 align-items-center ">
+              
+                
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+                <p><i class="fa-solid fa-check"></i></p>
+            </div>
+          </div>
+
+          <div id="dealsaver" class=" col-4 gymdealtype h-100 ultimatetype " >
+            <div class="p-12 ">
+             
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+                <p><i class="fa-solid fa-minus"></i></p>
+
+            </div>
+          </div>
+
+
         </div>
       </div>
-      <br />
-      <br />
 
-      <div class="container">
-        <h1>Hello World!</h1>
-        <p>Resize the browser window to see the effect.</p>
-        <div class="row">
-          <div class="col-sm-3">
-            <img
-              width="200"
-              height="200"
-              alt="Logo"
-              src="./assets/images/liftweight.webp"
-            />
-            <div class="col-sm-3">
-              <img
-                width="200"
-                height="200"
-                alt="Logo"
-                src="./assets/images/liftweight.webp"
-              />
-            </div>
+      <br>
+      <br>
 
-            <div class="col-sm-3">
-              <img
-                width="200"
-                height="200"
-                alt="Logo"
-                src="./assets/images/liftweight.webp"
-              />
-            </div>
-
-            <div
-              class="col-sm-3"
-              <img
-              width="200"
-              height="200"
-              alt="Logo"
-              src="./assets/images/liftweight.webp"
-            />
-          </div>
-        </div>
-      </div>
     </main>
     <br />
     <br />
 
     <footer>
       <div id="aboutfooter">
-        <h1>Find Us on Social Media</h1>
+        <h1 style="font-size: x-large;">Find Us on Social Media</h1>
         <ul id="social-networks">
           <li>
             <a
