@@ -5,8 +5,9 @@
 
 .slabo-13px-regular {
   font-family: "Slabo 13px", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  /*font-weight: 400;*/
+  font-style:normal;
+  font-size: x-small;
 
   padding:0;
   margin:0;
@@ -49,25 +50,10 @@ main {
   width: 100%;
 }
 
- /* about us section */
-
- .custom-buttonold {
-    background-color: #1f7798;
-    color:white;
-    border: #1f7798;
-}
-.custom-buttonold:hover {
-    background-color: #1d6d8a;
-    color:white;
-    border: #1d6d8a;
-}
-
-#aboutold .card-title {
-   color: #1f7798; /* mid-blue */  
-} 
+ 
 
 h1, h2 {
-    font-family: 'Poppins', serif;
+    font-family: 'Slabo 13px', sans-serif;
     color:  #184f63; /* mid-blue */
 }
 
@@ -119,6 +105,11 @@ h1, h2 {
   font-size: large;
   font-weight: bold;
 }
+
+.gymdeal-text {
+        font-style: italic;
+        color: #555;
+      }
 
 .col1 {
     background-color: lavender;
@@ -289,8 +280,11 @@ h1, h2 {
 }
 
 /* larger devices(laptops , desktops 1200 and up)  */
-@media screen and (min-width:1200px) {
+@media screen and (max-width:1200px) {
 
+  .navbar {
+     min-width:100%;
+  }
   
  /*navbar log section */
 .logocontainer {
@@ -305,64 +299,14 @@ h1, h2 {
 }
 
 /* For devices with a minimum width of 768px (Medium) */
-@media screen and (min-width: 768px) {
-
+@media screen and (max-width: 768px) {
+ .navbar {
+    width: 100%;
+  }
   
 }
 
 
-
-/* For devices with a minimum width of 320px (small) */
-@media screen and (min-width: 320px) {
-
-  #weekday:hover {
-    background-color: red;
-    cursor: pointer;
-    
-  }
-
-   
-  #aboutfooter > h1 {
-     font-family: 'Slabo';
-     font-size:x-large;
-     text-align: center;
-
-  }
-  .navbar span.navbar-toggler-icon {
-      height:26px;
-      padding-bottom: 5px;
-      align-items: center;
-  }
-
-
-  .navbar button.navbar-toggler {
-      width:50px;
-      height:32px;
-      background-color: #ddd;
-  }
-
-  .navbar div.container-fluid {
-      background-color:#1F89EF;
-      color:white;
-      top:0;
-      right:0;
-      padding-right:25px;
-      padding-top: 0;
-      padding-bottom: 14px;
-      font-weight: normal;
-      font-size:smaller;
-    
-  }
-
-   /*navbar log section */
-   .logocontainer {
-      height: 32px;
-      width: 56px;
-      position: fixed;
-      top: 16px;
-      z-index: 1;  
-  }
-}
 
 /*====Membership=====*/
 /*
@@ -374,7 +318,6 @@ h1, h2 {
   border: 5px solid violet;
   margin-bottom:0px !important; 
 }
-
 
 
 .gymdealtype {
@@ -391,9 +334,15 @@ h1, h2 {
   white-space:nowrap;
 }
 
-
 .savertype {
   border: 2px solid violet;
+  text-align: center;
+}
+
+
+.dealheader
+{
+  border: 2px solid blue;
   text-align: center;
 }
 
@@ -417,12 +366,6 @@ h1, h2 {
   text-align: center;
 }
 
-
-.gymdealcard-text {
-  font-style: italic;
-  color: #555;
-   
-}
 
 /* GyM gallery */
  h1 {
@@ -474,14 +417,14 @@ h1, h2 {
         }
       }
 
-/*
+
 .user-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
-  */
+  
 
 /*  
 .img {
@@ -491,3 +434,79 @@ h1, h2 {
   object-fit: cover;
 }
 */
+
+/* For devices with a minimum width of 320px (small) */
+@media screen and (max-width: 320px) {
+
+  #weekday:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+
+  #aboutfooter > h1 {
+     font-family: 'Slabo 13px';
+     font-size:large;
+     text-align: center;
+
+  }
+  .navbar span.navbar-toggler-icon {
+      height:26px;
+      padding-bottom: 5px;
+      align-items: center;
+  }
+
+  .navbar button.navbar-toggler {
+      width:50px;
+      height:32px;
+      background-color: #ddd;
+  }
+
+  .navbar {
+     width: 100%;
+     font-size: small;
+    }
+
+  .navbar div.container-fluid {
+      background-color:#1F89EF;
+      color:white;
+      top:0;
+      right:0;
+      padding-right:25px;
+      padding-top: 0;
+      padding-bottom: 14px;
+      font-weight: normal;
+      font-size:smaller;
+    }
+
+   /*navbar log section */
+   .logocontainer {
+      height: 32px;
+      width: 56px;
+      position: fixed;
+      top: 16px;
+      z-index: 1;  
+    }
+
+    h1 {
+     font-family: 'Slabo 13px', sans-serif;
+     font-weight: 200;
+     font-size:large;
+     text-align: center;
+    }
+
+    p {
+     font-family: 'Slabo 13px', sans-serif;
+     font-weight: 100;
+     font-size:x-small;
+     
+    }
+
+    
+    .gymdeal-text {
+      font-style: italic;
+      color: blue;
+   
+    }
+
+
+}
