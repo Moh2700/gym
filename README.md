@@ -19,48 +19,71 @@ At FitZone Gym, we’re not just helping you get fit — we’re helping you bui
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About, Classes, Contact, Insttructor, Memebership and Gallery page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](./media/love_running_nav.png)
+![Nav Bar](./media/gym_nav.png)
 
 - **The landing page image**
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](./media/love_running_landing.png)
+![Landing Page](./media/gym_landing.png)
 
-- **Club Ethos Section**
+- **Feel Good Gym Information Section**
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+This information is about the Feel Good Gym Contact details
 
-![Club Ethos](./media/love_running_ethos.png)
+![Landing Page](./media/gym_landing_info.png)
 
-- **Meetup Times section**
+- **People testimonial Section**
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+This section is for people testimonial about our gym
 
-![Meetup Times](./media/love_running_times.png)
+![Landing Page](./media/gym_landing_testimonial.png)
+
+- **Location map Section**
+
+This section is for the gym location which is just a fictitous one that needs updating with the real one.
+
+![Landing Page](./media/gym_landing_map.png)
 
 - **The Footer**
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](./media/love_running_footer.png)
+![Footer](./media/gym_landing_socialmedia.png)
 
-- **Gallery**
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-
-![Gallery](./media/love_running_gallery.png)
-
-- **The Sign Up Page**
+- **The Contact Page**
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-![Sign Up](./media/love_running_signup.png)
+![Contact](./media/gym_contact.png)
+
+This page will allow you to record and enquire about anything relate to the gym.
+
+- **The Membership Page**
+
+  - This page will allow the user to show the different deals that available when joinning the feel good gym.
+
+![Membership](./media/gym_membership1.png)
+
+![Membership](./media/gym_membership2.png)
+![Membership](./media/gym_membership3.png)
+![Membership](./media/gym_membership4.png)
+
+- **The Classes Page**
+
+![Classes](./media/gym_classesintro.png)
+
+![Classes](./media/gym_classes_timetable.png)
+
+- **The Instructor Booking Page**
+
+![Instructor](./media/gym_instructor_booking.png)
+
+- **The Gallery Page**
+
+![Gallery](./media/gym_gallery1.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 

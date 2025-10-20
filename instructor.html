@@ -34,8 +34,42 @@
               id="logo"
               alt="Logo"
               src="./assets/images/favicon/gymlogo.png"
+              width="50"
+              height="50"
             />
           </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="membership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="Gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -67,7 +101,7 @@
                   <!-- Email input-->
                   <div class="form-group">
                     <label class="col-md-3 control-label" for="email"
-                      >Your E-mail</label
+                      >E-mail</label
                     >
                     <div class="col-md-9">
                       <input
@@ -81,11 +115,11 @@
                   </div>
 
                   <div class="form-group">
-                    <label class="col-md-3 control-label" for="email"
+                    <label class="col-md-3 control-label" for="workout"
                       >Workout</label
                     >
-                    <div class="col-md-9">
-                      <select required>
+                    <div id="workout" class="col-md-9">
+                      <select required class="samelayout">
                         <option value="cardio">Cardio</option>
                         <option value="strength">Strength</option>
                         <option value="yoga">Yoga</option>
@@ -94,11 +128,11 @@
                   </div>
 
                   <div class="form-group">
-                    <label class="col-md-3 control-label" for="email"
+                    <label class="col-md-3 control-label" for="instructor"
                       >Instructor</label
                     >
-                    <div class="col-md-9">
-                      <select required>
+                    <div id="instructor" class="col-md-9">
+                      <select required class="samelayout">
                         <option value="alex">Alex</option>
                         <option value="jordan">Jordan</option>
                         <option value="taylor">Taylor</option>
