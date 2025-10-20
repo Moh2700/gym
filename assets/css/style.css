@@ -1,13 +1,19 @@
 
 /* global styles */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
-* {
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif;
- }
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+.slabo-13px-regular {
+  font-family: "Slabo 13px", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+
 
 
 /* main Home section */
@@ -45,18 +51,18 @@ main {
 
  /* about us section */
 
- .custom-button {
+ .custom-buttonold {
     background-color: #1f7798;
     color:white;
     border: #1f7798;
 }
-.custom-button:hover {
+.custom-buttonold:hover {
     background-color: #1d6d8a;
     color:white;
     border: #1d6d8a;
 }
 
-#about .card-title {
+#aboutold .card-title {
    color: #1f7798; /* mid-blue */  
 } 
 
@@ -65,29 +71,36 @@ h1, h2 {
     color:  #184f63; /* mid-blue */
 }
 
+/*
 .sharp-corners, .sharp-corners * {
     border-radius: 0 !important;
 }
+*/
 
- 
+/*
 #about .btn-outline-secondary :hover {
-  color: #1f7798; /* mid-blue */
+  color: #1f7798; 
 }
+*/
 
+/*
 #about {
-   background-color: #a4c2d1; /* egg blue */
+   background-color: #a4c2d1; 
 }
+*/
 
-/* Ensure all card texts are the same height */
+/* Ensure all card texts are the same height 
 #about .card-text {
     min-height: 120px;
 }
+*/
 
-
+/*
 #about {
-    background-color: white; /* white */
+    background-color: white; 
     
 }
+*/
 
  /* gym class section */
 #gymclass {
@@ -305,47 +318,39 @@ h1, h2 {
   #weekday:hover {
     background-color: red;
     cursor: pointer;
-    font-family: 'Slabo';
-    font-size:xx-small;
-}
-
-  h1 {
-     font-family: 'Slabo';
-     font-size:small;
+    
   }
-  
+
+   
   #aboutfooter > h1 {
      font-family: 'Slabo';
      font-size:x-large;
      text-align: center;
 
   }
-
-  p{
-     font-family: 'Slabo';
-     font-size:xx-small;
+  .navbar span.navbar-toggler-icon {
+      height:26px;
+      padding-bottom: 5px;
+      align-items: center;
   }
 
- .navbar span.navbar-toggler-icon {
-   height:32px;
-   padding-bottom: 5px;
-  }
+
   .navbar button.navbar-toggler {
-    width:56px;
-    height:32px;
-    background-color: #ddd;
+      width:50px;
+      height:32px;
+      background-color: #ddd;
   }
 
   .navbar div.container-fluid {
-     background-color:#1F89EF;
-     color:white;
-     top:0;
-     right:0;
-     padding-right:25px;
-     padding-top: 0;
-     padding-bottom: 14px;
-     font-weight: normal;
-     font-size:smaller;
+      background-color:#1F89EF;
+      color:white;
+      top:0;
+      right:0;
+      padding-right:25px;
+      padding-top: 0;
+      padding-bottom: 14px;
+      font-weight: normal;
+      font-size:smaller;
     
   }
 
@@ -356,33 +361,24 @@ h1, h2 {
       position: fixed;
       top: 16px;
       z-index: 1;  
+  }
 }
 
-}
 /*====Membership=====*/
-
+/*
 .marginRow{
    margin-bottom:0px !important; 
    }
+   */
 .gymdeal-saver {
   border: 5px solid violet;
-  
-  font-size:xx-small;
-  /*font-family: 'Slabo';*/
   margin-bottom:0px !important; 
 }
 
 
-.alterfont  {
-  font-family: 'Slabo';
-  font-size:xx-small;
-   
-}
 
 .gymdealtype {
-  /*border: 5px solid violet;
-  background-color: #E5EFFA;
-  font-family: 'Slabo';*/
+  
   border-radius: 12px;
   background-color: #E5EFFA;
   font-size:xx-small;
@@ -395,10 +391,6 @@ h1, h2 {
   white-space:nowrap;
 }
 
-.gymdealtype:hover {
-  /*transform: translateY(-5px);*/
-  #ultimateselect{ display:block; }
-}
 
 .savertype {
   border: 2px solid violet;
@@ -411,7 +403,7 @@ h1, h2 {
 }
 
 .ultimatetype:hover {
-  background-color:gold;
+  background-color:bisque;
 }
 
 .happytype {
@@ -425,15 +417,6 @@ h1, h2 {
   text-align: center;
 }
 
-
-.hide {
-  display: none;
-}
-    
-.myDIV:hover + .hide {
-  display: block;
-  color: red;
-}
 
 .gymdealcard-text {
   font-style: italic;
@@ -491,18 +474,20 @@ h1, h2 {
         }
       }
 
-
+/*
 .user-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
+  */
 
+/*  
 .img {
   width:  200px;
   height: 100px;
   background-image:url('./assets/images/image1.webp');
   object-fit: cover;
 }
-
+*/
