@@ -305,22 +305,66 @@ h1, h2 {
   
 }
 
+/*
+textarea.resize-vertical{ resize: none; }
+textarea.resize-horizontal { resize: none; }
+*/
+
 /* For devices with a minimum width of 768px (Medium) */
 @media screen and (max-width: 768px) {
- .navbar {
-    width: 100%;
-  }
-  
+ 
+  /*navbar log section */
+    .logocontainer {
+       height: 35px;
+       width: 58px;
+       position: absolute;
+       top: 0px;
+       z-index: 1;  
+    }
+
+    .navbar div.container-fluid {
+      background-color:#1F89EF;
+      color:white;
+      min-width: 100%;
+    }
+     
+    .navbar span.navbar-toggler-icon {
+      height:26px;
+      top:0;
+      left: 720px;
+      position:absolute;
+    }
+
+  /*
+   .navbar div.container-fluid {
+      background-color:#1F89EF;
+      color:white;
+      font-weight: normal;
+      font-size:smaller;
+      padding-right:25px;
+      padding-top: 0;
+      padding-bottom: 14px;
+      top:0;
+      right:0;
+
+      padding-right:25px;
+      padding-top: 0;
+      padding-bottom: 14px;
+      font-weight: normal;
+      font-size:smaller;
+      
+    }
+    .navbar span.navbar-toggler-icon {
+      height:26px;
+      padding-bottom: 5px;
+      align-items: center;
+    }
+    */
 }
 
 
 
 /*====Membership=====*/
-/*
-.marginRow{
-   margin-bottom:0px !important; 
-   }
-   */
 .gymdeal-saver {
   border: 5px solid violet;
   margin-bottom:0px !important; 
@@ -471,23 +515,47 @@ h1, h2 {
      text-align: center;
 
     }
+
+    /*navbar log section */
+    .logocontainer {
+       height: 35px;
+       width: 58px;
+       position: absolute;
+       top: 0px;
+       z-index: 1;  
+    }
+
+    .navbar div.container-fluid {
+      background-color:#1F89EF;
+      color:white;
+    }
+     
     .navbar span.navbar-toggler-icon {
       height:26px;
-      padding-bottom: 5px;
-      align-items: center;
+      top:0;
+      left: 285px;
+      position:absolute;
     }
 
+    /*
     .navbar button.navbar-toggler {
+      background-color: red;
       width:50px;
       height:32px;
-      background-color: #ddd;
-    }
+      right:0;
+      left: 305px;
+      position:absolute;
+      */
+    
 
+    /*
     .navbar {
      width: 100%;
      font-size: small;
     }
+    */
 
+    /*
     .navbar div.container-fluid {
       background-color:#1F89EF;
       color:white;
@@ -499,8 +567,9 @@ h1, h2 {
       font-weight: normal;
       font-size:smaller;
     }
+     */
 
-    /*navbar log section */
+    /*
     .logocontainer {
       height: 32px;
       width: 56px;
@@ -508,6 +577,7 @@ h1, h2 {
       top: 16px;
       z-index: 1;  
     }
+    */
 
     h1 {
      font-family: 'Slabo 13px', sans-serif;
@@ -529,5 +599,5 @@ h1, h2 {
    
     }
 
-
+  
 }

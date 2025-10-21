@@ -1,14 +1,12 @@
-# Gym
+# Feel Good Gym
 
-At FitZone Gym, we believe that fitness is more than just exercise — it’s a lifestyle dedicated to strength, energy, and balance. Taking care of your body means investing in your long-term health, confidence, and happiness.
+At Feel Good Gym, we believe that fitness is more than just exercise — it’s a lifestyle dedicated to strength, energy, and balance. Taking care of your body means investing in your long-term health, confidence, and happiness.
 
 Regular workouts help you build muscle, burn fat, and improve flexibility, but the real benefits go beyond the mirror. Staying active boosts your mood, sharpens focus, and reduces stress, helping you feel better every day. Whether you enjoy lifting weights, joining group classes, or taking part in personal training sessions, every movement brings you one step closer to your goals.
 
 Nutrition, rest, and mindset are just as important. That’s why we encourage a holistic approach — combining effective training programs with healthy eating habits and proper recovery. Our certified trainers and nutrition advisors are here to guide you, motivate you, and make sure your fitness journey is safe and enjoyable.
 
-At FitZone Gym, we’re not just helping you get fit — we’re helping you build a stronger, healthier version of yourself.
-
-![Responsice Mockup](./media/love_running_mockup.png)
+At Feel Good Gym, we’re not just helping you get fit — we’re helping you build a stronger, healthier version of yourself.
 
 ## Features
 
