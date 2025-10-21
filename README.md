@@ -83,6 +83,12 @@ This page will allow you to record and enquire about anything relate to the gym.
 
 ![Gallery](./media/gym_gallery1.png)
 
+![gallery](./media/gym_gallery2.png)
+
+![gallery](./media/gym_gallery3.png)
+
+![gallery](./media/gym_gallery4.png)
+
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
