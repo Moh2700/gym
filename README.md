@@ -24,7 +24,7 @@ At Feel Good Gym, we’re not just helping you get fit — we’re helping you b
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/Moh2700/gym/blob/main/media/gym_landing.PNG)
+![Landing Page](./media/gym_landing.png)
 
 - **Feel Good Gym Information Section**
 
@@ -127,7 +127,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://Moh2700.github.io/gym/index.html
+The live link can be found here - https://Moh2700.github.io/gym
 
 ## Credits
 
