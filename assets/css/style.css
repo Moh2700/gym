@@ -1,6 +1,5 @@
 
 /* global styles */
-
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 
 .slabo-13px-regular {
@@ -8,14 +7,10 @@
   /*font-weight: 400;*/
   font-style:normal;
   font-size: x-small;
-
   padding:0;
   margin:0;
   box-sizing: border-box;
-  
 }
-
-
 
 /* main Home section */
 main {
@@ -49,8 +44,6 @@ main {
   margin-right: 10px;
   width: 100%;
 }
-
- 
 
 h1, h2 {
     font-family: 'Slabo 13px', sans-serif;
@@ -150,8 +143,6 @@ h1, h2 {
 .navbar a:hover {
   color: black;
 }
-
-
 
 .samelayout {
   min-width: 100%;
@@ -263,55 +254,6 @@ h1, h2 {
    
 }
 
-/* larger devices(laptops , desktops 1200 and up)  */
-@media screen and (max-width:1200px) {
-
-  .navbar {
-     min-width:100%;
-  }
-  
- /*navbar log section */
-.logocontainer {
-    height: 50px;
-    width: 50px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    z-index: 1;  
-}
-  
-}
-
-
-
-/* For devices with a minimum width of 768px (Medium) */
-@media screen and (max-width: 768px) {
- 
-  /*navbar log section */
-    .logocontainer {
-       height: 35px;
-       width: 58px;
-       position: absolute;
-       top: 0px;
-       z-index: 1;  
-       position:absolute;
-    }
-
-    .navbar div.container-fluid {
-      background-color:#1F89EF;
-      color:white;
-      min-width: 100%;
-     /* position:absolute;*/
-    }
-     
-    .navbar span.navbar-toggler-icon {
-      height:26px;
-      top:0;
-      left: 715px;
-      position:absolute;
-    }
-
-}
 
 /*====Membership=====*/
 .gymdeal-saver {
@@ -414,15 +356,12 @@ h1, h2 {
         }
       }
 
-
       .user-img {
         width: 50px;
         height: 50px;
         border-radius: 50%;
         object-fit: cover;
       }
-        
-
 
       .testimonial-card {
         background: #fff;
@@ -447,11 +386,8 @@ h1, h2 {
         color: #555;
       }
 
-
-
-
-/* For devices with a minimum width of 320px (small) and up 1200px*/
-@media screen and (min-width: 320px)  and (max-width: 1200px) {
+/* For devices with a minimum width of 320px (small) and up 1440px*/
+@media screen and (min-width: 320px)  and (max-width: 1440px) {
 
     #weekday:hover {
     background-color: red;
@@ -482,19 +418,10 @@ h1, h2 {
     .navbar span.navbar-toggler-icon {
       
       left: 90%; /* fallback if needed */
-      left: calc(100% - 2em);
+      left: calc(100% - 3em);
       position: fixed;
       top: 10px;
-      
       height:26px;
-      /*
-      right: 5px;
-      top:0;
-      float:left;
-      z-index: 3;
-      position:absolute;
-      */
-    
     }
 
     h1 {
