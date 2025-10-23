@@ -24,7 +24,7 @@ At Feel Good Gym, we’re not just helping you get fit — we’re helping you b
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](./assets/images/media/gym_landing.png)
+![Landing Page](https://github.com/Moh2700/gym/blob/main/media/gym_landing.PNG)
 
 - **Feel Good Gym Information Section**
 
