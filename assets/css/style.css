@@ -30,6 +30,11 @@ main {
   flex-direction: column;
 }
 
+.paddinground {
+ padding-top: 20px;
+}
+
+
 #gymmap {
   width: 100%;
   height: 400px;
@@ -306,7 +311,7 @@ h1, h2 {
 }
 
 
-/* GyM gallery */
+/* Gym gallery */
  h1 {
         font-size: 50px;
         word-break: break-all;
@@ -386,8 +391,8 @@ h1, h2 {
         color: #555;
       }
 
-/* For devices with a minimum width of 320px (small) and up 1440px*/
-@media screen and (min-width: 320px)  and (max-width: 1440px) {
+/* For devices with a minimum width of 320px (small) and up 1200px*/
+@media screen and (min-width: 320px)  and (max-width: 1024px) {
 
     #weekday:hover {
     background-color: red;
