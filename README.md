@@ -137,16 +137,21 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- **Bootstrap**  
+  -[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css") -[Bootstrap files]("https://getbootstrap.com/docs/5.3/assets/css/docs.css") -[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js)
+- **Fontawesome**
+  The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -[Font Awesome]("https://kit.fontawesome.com/dadada79ef.js")
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- **Pexels and Unsplash website**
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+- The photos were taken from from This Open Source site
+  [Pexels Site]("https://www.pexels.com/search/gym/") and
+  [Unsplash Site]("https://unsplash.com/s/photos/gym")
+- The photos used in the home, classes and aboutus page.
+- The photos used on the home page from This Open Source site
+- The images used for the gallery page were taken from this other open source site
 
 ## Other General Project Advice
 
