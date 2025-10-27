@@ -1,4 +1,4 @@
-# Feel Good Gym
+# Feel Good Gym overview
 
 At Feel Good Gym, we believe that fitness is more than just exercise — it’s a lifestyle dedicated to strength, energy, and balance. Taking care of your body means investing in your long-term health, confidence, and happiness.
 
@@ -7,6 +7,30 @@ Regular workouts help you build muscle, burn fat, and improve flexibility, but t
 Nutrition, rest, and mindset are just as important. That’s why we encourage a holistic approach — combining effective training programs with healthy eating habits and proper recovery. Our certified trainers and nutrition advisors are here to guide you, motivate you, and make sure your fitness journey is safe and enjoyable.
 
 At Feel Good Gym, we’re not just helping you get fit — we’re helping you build a stronger, healthier version of yourself.
+
+# Gym User Story
+
+As a gym member I want view the available gym membership plans offered by the Feel Good Gym in order to choose the best one for me. View the gym's schedule that I can plan my visits to the gym. Choose the right trainers for my projected goals for my training. Read people testimonials or reviews so that I can make my own decision to suit my needs. View gym classes and book gym instructor. Contact the gym easily via a form so that I can ask questions. View photos and videos of the gym so that I can get a feel and a sense of the gym environment suitable for me.
+
+# Gym User Nutrition Story (Not implemented at this stage)
+
+As a gym member, I want to view my daily meals and see how they align with my fitness goals (e.g., muscle gain, fat loss, maintenance). Make proper decisions regarding my food diet to improve my performance and results in the gym.
+
+# Gym Nutritionist Story (Not implemented at this stage)
+
+As a gym nutritionist, I want to view my clients daily meals and see how they align with their fitness program. Create and assign meal plans to individual clients that includes calories, meal timing and varieties. View client meal profiles such as goals, preferences and allergies. Send client reports about their nutrition activities.
+
+# Gym Instructor Story (Not implemented at this stage)
+
+As a gym instructor member I want to view my class schedule so that I can manage my time. View who is registered for my classes so that I can prepare my classes accordingly. Update my program and specialties so that members know what I can offer. Track client progress so that I can provide better guidance. Send messages or updates to my clients to keep them engagged in the process
+
+# Gym Admin Story (Not implemented at this stage)
+
+As an gym admin I want to manage membership plans and pricing so that I can adjust them as needed. View all bookings and cancellations so I can manage gym capacity. Add, remove instructors to keep the site up-to-date. Generate reports on user activities and revenus that we can track performance. Manage website content, offers and announcements easily.
+
+# Gym User Payment Story (Not implemented at this stage)
+
+As a gym user I want to pay for my membership online so that I can save time. Update my update my payment method so that my membership renews automatically. View payment history and invoices so that I can track financial expenditure in the gym.
 
 ## Features
 
@@ -123,23 +147,24 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://Moh2700.github.io/gym
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Content
 
-- **Bootstrap**  
-  -[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css") -[Bootstrap files]("https://getbootstrap.com/docs/5.3/assets/css/docs.css") -[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js)
+- **Bootstrap**
+
+[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css")
+[Bootstrap files]("https://getbootstrap.com/docs/5.3/assets/css/docs.css")
+[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js)
+
 - **Fontawesome**
+
   The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -[Font Awesome]("https://kit.fontawesome.com/dadada79ef.js")
 
 ### Media
@@ -149,9 +174,10 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos were taken from from This Open Source site
   [Pexels Site]("https://www.pexels.com/search/gym/") and
   [Unsplash Site]("https://unsplash.com/s/photos/gym")
+
 - The photos used in the home, classes and aboutus page.
-- The photos used on the home page from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used on the home page .
+- The images used for the gallery page.
 
 ## Other General Project Advice
 
