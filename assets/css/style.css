@@ -389,10 +389,60 @@ h1, h2 {
 }
 */
 
-.image-container {
-  aspect-ratio: 2 / 2; /* Width / Height ratio */
- 
+.container-portrait  {
+  aspect-ratio: 4 / 3 ;
+}
+
+
+.img-portrait  {
+   width: 100%; 
+   height: 200px
   /*
+  min-width: 75%;
+  min-height: 75% ;
+  object-fit: cover;
+  */
+}
+ 
+.container-landscape  {
+  aspect-ratio: 16 / 9 ;
+}
+
+.img-landscape  {
+  min-width: 75%;
+  min-height: 75%;
+  object-fit: cover;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+
+}
+
+
+.img-container2 {
+    aspect-ratio: 4 / 3 ;
+}
+
+.img2 {
+   width: 100%;
+   height:400px;
+   object-fit: cover;
+   padding: 20px;
+}
+
+.image-container {
+  aspect-ratio: 16 / 9 ;
+  /*
+  width: 100px;
+  height: 300px;
+  */
+   
+  /*
+  aspect-ratio: 5 / 1 ; 
+  
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -401,21 +451,39 @@ h1, h2 {
   */
 }
 
+.imgx  {
+  width:  800px;
+  height: 500px;
+}
 
-img {
-  max-width: 50%;
-  max-height: 50%;
+.imgold {
+  
+  aspect-ratio: 10 / 2 ;
+
+  width: 600px;
+  height: 580px;
+ 
   /*
+  max-width: 75%;
+  max-height: 75%;
+  
   width: auto;
   height: auto;
-  */
+  
   object-fit: contain;
+  */
 }
+
+
+
+
 
 
 /* For devices with a minimum width of 320px (small) and up 1440px*/
 @media screen and (min-width: 320px)  and (max-width: 1440px) {
     
+  
+
     #weekday:hover {
     background-color: red;
     cursor: pointer;
@@ -487,7 +555,11 @@ img {
 
 }
 
-
+.gymbackgrndimg   {
+ width: 100%; 
+ height: 650px;
+  
+}
 @media screen and (min-width: 768px)  and (max-width: 1440px) {
 
   .monthlyoffer {
@@ -498,7 +570,16 @@ img {
 
 }
 
-
+@media screen and (min-width: 320px)  and (max-width: 768px) {
+  
+  .gymbackgrndimg  {
+     width:95%;
+     height:300px;
+     object-fit: cover;
+     padding:5px;
+     padding-left: 20px;
+  }
+}
 
 .button {
   background-color: blue; /* Original background color */

@@ -123,6 +123,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing
 
+**Home page**
+
+![TV Monitor](./assets/images/testingpart1/image.png)
+
+I started my testing with large screen resolution but everthing works as it should be but my intention is to do the testing on different media. That is the real challenge where my code needs to cope with all the different screen configurations and resolutions.
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -157,15 +163,18 @@ The live link can be found here - https://Moh2700.github.io/gym
 
 ### Content
 
-- **Bootstrap**
+**Bootstrap**
 
-[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css")
-[Bootstrap files]("https://getbootstrap.com/docs/5.3/assets/css/docs.css")
-[Bootstrap files]("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js)
+- [Bootstrap files] ("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css")
+- [Bootstrap files] ("https://getbootstrap.com/docs/5.3/assets/css/docs.css")
+- [Bootstrap files] ("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js)
 
-- **Fontawesome**
+**Fontawesome**
 
-  The icons in the footer were taken from [Font Awesome](https://fontawesome.com/) -[Font Awesome]("https://kit.fontawesome.com/dadada79ef.js")
+The icons in the footer were taken from
+
+- [Font Awesome site] (https://fontawesome.com/)
+- [Font awesome file] Javascript file to allow you to interact with fontawesome icons ("https://kit.fontawesome.com/dadada79ef.js")
 
 ### Media
 
