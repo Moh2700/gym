@@ -12,26 +12,6 @@ At Feel Good Gym, we’re not just helping you get fit — we’re helping you b
 
 As a gym member I want view the available gym membership plans offered by the Feel Good Gym in order to choose the best one for me. View the gym's schedule that I can plan my visits to the gym. Choose the right trainers for my projected goals for my training. Read people testimonials or reviews so that I can make my own decision to suit my needs. View gym classes and book gym instructor. Contact the gym easily via a form so that I can ask questions. View photos and videos of the gym so that I can get a feel and a sense of the gym environment suitable for me.
 
-# Gym User Nutrition Story (Not implemented at this stage)
-
-As a gym member, I want to view my daily meals and see how they align with my fitness goals (e.g., muscle gain, fat loss, maintenance). Make proper decisions regarding my food diet to improve my performance and results in the gym.
-
-# Gym Nutritionist Story (Not implemented at this stage)
-
-As a gym nutritionist, I want to view my clients daily meals and see how they align with their fitness program. Create and assign meal plans to individual clients that includes calories, meal timing and varieties. View client meal profiles such as goals, preferences and allergies. Send client reports about their nutrition activities.
-
-# Gym Instructor Story (Not implemented at this stage)
-
-As a gym instructor member I want to view my class schedule so that I can manage my time. View who is registered for my classes so that I can prepare my classes accordingly. Update my program and specialties so that members know what I can offer. Track client progress so that I can provide better guidance. Send messages or updates to my clients to keep them engagged in the process
-
-# Gym Admin Story (Not implemented at this stage)
-
-As an gym admin I want to manage membership plans and pricing so that I can adjust them as needed. View all bookings and cancellations so I can manage gym capacity. Add, remove instructors to keep the site up-to-date. Generate reports on user activities and revenus that we can track performance. Manage website content, offers and announcements easily.
-
-# Gym User Payment Story (Not implemented at this stage)
-
-As a gym user I want to pay for my membership online so that I can save time. Update my update my payment method so that my membership renews automatically. View payment history and invoices so that I can track financial expenditure in the gym.
-
 ## Features
 
 ### Existing Features
@@ -113,36 +93,219 @@ This page will allow you to record and enquire about anything relate to the gym.
 
 ![gallery](./media/gym_gallery4.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+### Features Not implemented at this stage
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+# Gym User Nutrition Story
 
-### Features Left to Implement
+As a gym member, I want to view my daily meals and see how they align with my fitness goals (e.g., muscle gain, fat loss, maintenance). Make proper decisions regarding my food diet to improve my performance and results in the gym.
 
-- Another feature idea
+# Gym Nutritionist Story
 
-## Testing
+As a gym nutritionist, I want to view my clients daily meals and see how they align with their fitness program. Create and assign meal plans to individual clients that includes calories, meal timing and varieties. View client meal profiles such as goals, preferences and allergies. Send client reports about their nutrition activities.
 
-**Home page**
+# Gym Instructor Story
 
+As a gym instructor member I want to view my class schedule so that I can manage my time. View who is registered for my classes so that I can prepare my classes accordingly. Update my program and specialties so that members know what I can offer. Track client progress so that I can provide better guidance. Send messages or updates to my clients to keep them engagged in the process
+
+# Gym Admin Story
+
+As an gym admin I want to manage membership plans and pricing so that I can adjust them as needed. View all bookings and cancellations so I can manage gym capacity. Add, remove instructors to keep the site up-to-date. Generate reports on user activities and revenus that we can track performance. Manage website content, offers and announcements easily.
+
+# Gym User Payment Story
+
+As a gym user I want to pay for my membership online so that I can save time. Update my update my payment method so that my membership renews automatically. View payment history and invoices so that I can track financial expenditure in the gym.
+
+### Testing
+
+## Home page
+
+Different media screen configurations and resolutions.
+
+A. **Mobile**
+
+1. **Small Mobile Resolution 320x520**
+   ![home page](./assets/images/testingpart1/home/homepagemobile1.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile2.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile3.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile4.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile5.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile6.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile7.PNG)
+
+2. **Medium Mobile Resolution 375x520**
+   ![home page](./assets/images/testingpart1/home/homepagemobile8.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile9.PNG)
+   ![home page](./assets/images/testingpart1/home/homepagemobile10.PNG)
+
+3. **Large Mobile Resolution 425x520**
+   ![home page](./assets/images/testingpart1/home/homepagelaptop1.PNG)
+
+B. **Tablet Resolution 768x520**
+![home page](./assets/images/testingpart1/home/homepagetablet1.PNG)
+![home page](./assets/images/testingpart1/home/homepagetablet2.PNG)
+![home page](./assets/images/testingpart1/home/homepagetablet3.PNG)
+![home page](./assets/images/testingpart1/home/homepagetablet4.PNG)
+
+C. **Laptop Resolution 1024x520**
+![home page](./assets/images/testingpart1/home/homepagelaptop1.PNG)
+![home page](./assets/images/testingpart1/home/homepagelaptop2.PNG)
+![home page](./assets/images/testingpart1/home/homepagelaptop3.PNG)
+![home page](./assets/images/testingpart1/home/homepagelaptop4.PNG)
+
+D. **Laptop Resolution 1044x520**
+![home page](./assets/images/testingpart1/home/homepagelaptop1large.PNG)
+
+E. **TV Monitor**
 ![TV Monitor](./assets/images/testingpart1/image.png)
 
-I started my testing with large screen resolution but everthing works as it should be but my intention is to do the testing on different media. That is the real challenge where my code needs to cope with all the different screen configurations and resolutions.
+## Aboutus page
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+A. **Mobile**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+1. **Small Resolution 320x520**
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+This screen shot is for testing my site using small mobile screen resolution shown on top of the image along side the menu shown when clicked on the right icon.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_smobile_1.PNG)
+
+![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_smobile_2.PNG)
+
+2. **Medium Resolution 375x520**
+   This screen shot is for testing my site using medium mobile screen resolution shown on top of the image
+   ![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_m_mobile_1.PNG)
+
+3. **Large Resolution 425x520**
+   This screen shot is for testing my site using large mobile screen resolution shown on top of the image
+   ![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_lg_mobile_1.PNG)
+
+B. **Tablet Resolution 768x520**
+This screen shot is for testing my site using tablet screen resolution shown on top of the image
+![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_tablet_1.PNG)
+
+C. **Laptop Resolution 1024x520**
+This screen shot is for testing my site using laptop screen resolution shown on top of the image
+
+![Aboutus](./assets/images/testingpart1/aboutus/aboutuspage_laptop_1.PNG)
+
+1. **Large Screen**
+
+## Contact page
+
+A. **Mobile**
+
+1. **Small Mobile Resolution 320x520**
+   This screen shot is for testing my site using small mobile screen resolution shown on top of the image
+   ![Contact](./assets/images/testingpart1/contact/contactpage.PNG)
+
+2. **Medium Mobile Resolution 375x520**
+
+3. **Large Mobile Resolution 425x520**
+   This screen shot is for testing my site using large mobile screen resolution shown on top of the image
+   ![Contact](./assets/images/testingpart1/contact/contactpage_lg_mobile1.PNG)
+
+B. **Tablet Resolution 768x520**
+This screen shot is for testing my site using tablet screen resolution shown on top of the image
+![Contact](./assets/images/testingpart1/contact/contactpage_tablet1.PNG)
+
+C. **Laptop Resolution 1024x520**
+
+D.**Test Result for Contact page**
+
+This screen shot is for testing my site using some data in the contact form sent to the server of code institute for testing what data has been sent and the screen resolution shown on top of the image
+![Contact](./assets/images/testingpart1/contact/contactpagedata.PNG)
+
+## Membership page
+
+A. **Mobile**
+
+1.  **Small Mobile Resolution 320x520**
+    ![Membership](./assets/images/testingpart1/membership/membershippage_sml_mobile_1.PNG)
+    ![Membership](./assets/images/testingpart1/membership/membershippage_sml_mobile_2.PNG)
+    ![Membership](./assets/images/testingpart1/membership/membershippage_sml_mobile_3.PNG)
+    ![Membership](./assets/images/testingpart1/membership/membershippage_sml_mobile_4.PNG)
+
+2.  **Medium Mobile Resolution 375x520**
+
+3.  **Large Mobile Resolution 425x520**
+    ![Membership](./assets/images/testingpart1/membership/membershippage_lg_mobile_1.PNG)
+    ![Membership](./assets/images/testingpart1/membership/membershippage_lg_mobile_2.PNG)
+    ![Membership](./assets/images/testingpart1/membership/membershippage_lg_mobile_3.PNG)
+
+B. **Tablet Resolution 768x520**
+
+![Membership](./assets/images/testingpart1/membership/membershippage_tablet_1.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_tablet_2.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_tablet_3.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_tablet_4.PNG)
+
+C. **Laptop Resolution 1024x520**
+
+## Classes page
+
+A. **Mobile**
+
+1.  **Small Mobile Resolution 320x520**
+
+![Classes](./assets/images/testingpart1/classes/classespage_sml_mobile_1.PNG)
+![Classes](./assets/images/testingpart1/classes/classespage_sml_mobile_2.PNG)
+
+2.  **Medium Mobile Resolution 375x520**
+
+3.  **Large Mobile Resolution 425x520**
+
+B. **Tablet Resolution 768x520**
+![Classes](./assets/images/testingpart1/classes/classespage_tablet_1.PNG)
+![Classes](./assets/images/testingpart1/classes/classespage_tablet_2.PNG)
+
+C. **Laptop Resolution 1024x520**
+
+## Gallery page
+
+A. **Mobile**
+
+1.  **Small Mobile Resolution 320x520**
+    ![Gallery](./assets/images/testingpart1/gallery/gallerypage_sm_mobile_1.PNG)
+
+2.  **Medium Mobile Resolution 375x520**
+
+3.  **Large Mobile Resolution 425x520**
+
+B. **Tablet Resolution 768x520**
+
+![Gallery](./assets/images/testingpart1/gallery/gallerypage_tablet_1.PNG)
+
+C. **Laptop Resolution 1024x520**
+
+## Instructor page
+
+A. **Mobile**
+
+1.  **Small Mobile Resolution 320x520**
+    ![Instructor](./assets/images/testingpart1/instructor/instructorpage_sm_mobile_1.PNG)
+
+2.  **Medium Mobile Resolution 375x520**
+
+3.  **Large Mobile Resolution 425x520**
+
+B. **Tablet Resolution 768x520**
+
+C. **Laptop Resolution 1024x520**
 
 ### Validator Testing
 
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+**HTML**
+
+1. No errors were returned when passing through the official
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/index.html)
+
+2. ![Validation](./assets/images/testingpart1/validation/htmlvalidation.PNG)
+
+**CSS**
+
+1. No errors were found when passing through the official
+   [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FMoh2700.github.io%2Fgym%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+2. ![Validation](./assets/images/testingpart1/validation/cssvalidation.PNG)
 
 ### Unfixed Bugs
 
@@ -150,14 +313,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://Moh2700.github.io/gym
+The live link can be found here - https://Moh2700.github.io/gym/index.html
 
 ## Credits
 
