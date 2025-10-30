@@ -325,7 +325,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/contact.html)
 
 2. **Evidence**
-   ![Validation](./assets/images/testingpart1/validation/htmlvalid_instructor.PNG)
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_contact.PNG)
 
 ## Classes page
 
