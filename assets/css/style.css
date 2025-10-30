@@ -60,7 +60,7 @@ h1, h2 {
 
  /* gym class section */
 #gymclass {
-    /* background-color: #a4c2d1;*/ /* egg blue */
+    
     text-align: center;
     padding: 55px;
     display: flex;
@@ -263,7 +263,7 @@ h1, h2 {
   /*transition: transform 0.3s; */ 
 }
 
-#dealsaver  p {
+.dealsaver  p {
   white-space:nowrap;
 }
 
@@ -305,6 +305,7 @@ h1, h2 {
   word-break: break-all;
 }
 
+
 .row {
   margin: 8px -16px;
 }
@@ -312,8 +313,9 @@ h1, h2 {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-        padding: 8px;
+  padding: 8px;
 }
+
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -333,6 +335,12 @@ h1, h2 {
 .content {
   background-color: white;
   padding: 10px;
+}
+
+
+.galleryimgsize {
+  height :300px;
+  width:100%
 }
 
       /* makes a two column-layout instead of four columns */
@@ -380,29 +388,15 @@ h1, h2 {
       }
 
 
-/*
-.content {
-  background-color: white;
-  padding: 10px;
-}
-*/
-
 .image-container {
   aspect-ratio: 16 / 9 ;
   
 }
 
 
-
-
-
-
-
 /* For devices with a minimum width of 320px (small) and up 1440px*/
 @media screen and (min-width: 320px)  and (max-width: 1440px) {
-    
   
-
     #weekday:hover {
     background-color: red;
     cursor: pointer;
@@ -456,9 +450,10 @@ h1, h2 {
 
     p {
       font-family: 'Slabo 13px', sans-serif;
-      font-weight: 100;
+      font-weight: 400;
       font-size:x-small;
     }
+      
 
     .gymdeal-text {
       font-style: italic;
@@ -499,6 +494,14 @@ h1, h2 {
      padding-left: 20px;
   }
 }
+
+
+#reducefont > p { 
+    text-align: left; 
+    font-size:9px; 
+    text-wrap: nowrap;
+  }
+
 
 .button {
   background-color: blue; /* Original background color */

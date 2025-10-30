@@ -293,14 +293,65 @@ C. **Laptop Resolution 1024x520**
 
 ### Validator Testing
 
-**HTML**
+**HTML Validation**
 
-1. No errors were returned when passing through the official
+## Home page
+
+1. Official W3C validator
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/index.html)
 
-2. ![Validation](./assets/images/testingpart1/validation/htmlvalidation.PNG)
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_index.PNG)
 
-**CSS**
+## aboutus page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/aboutus.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_aboutus.PNG)
+
+## Instructor page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/instructor.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_instructor.PNG)
+
+## Contact page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/contact.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_instructor.PNG)
+
+## Classes page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/classes.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_classes.PNG)
+
+## Membership page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/membership.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_membership.PNG)
+
+## Gallery page
+
+1. Official W3C validator
+   [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/gallery.html)
+
+2. **Evidence**
+   ![Validation](./assets/images/testingpart1/validation/htmlvalid_gallery.PNG)
+
+**CSS Validation**
 
 1. No errors were found when passing through the official
    [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FMoh2700.github.io%2Fgym%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
