@@ -305,7 +305,7 @@ h1, h2 {
   word-break: break-all;
 }
 
-
+/*=========================================*/
 .row {
   margin: 8px -16px;
 }
@@ -315,7 +315,6 @@ h1, h2 {
 .row > .column {
   padding: 8px;
 }
-
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -337,6 +336,7 @@ h1, h2 {
   padding: 10px;
 }
 
+/*=========================================*/
 
 .galleryimgsize {
   height :300px;
@@ -501,17 +501,3 @@ h1, h2 {
     font-size:9px; 
     text-wrap: nowrap;
   }
-
-
-.button {
-  background-color: blue; /* Original background color */
-  color: white; /* Text color */
-  padding: 10px 20px; /* Padding */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-}
-
-.button:hover {
-  background-color: green; /* Background color changes on hover */
-}

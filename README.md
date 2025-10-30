@@ -17,75 +17,73 @@ As a gym member I want view the available gym membership plans offered by the Fe
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, About, Classes, Contact, Insttructor, Memebership and Gallery page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](./media/gym_nav.png)
+![Nav Bar](./assets/images/testingpart1/features/navigationmenu.png)
 
 - **The landing page image**
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](./media/gym_landing.png)
+![Landing Page](./assets/images/testingpart1/features/gym_landing.png)
 
 - **Feel Good Gym Information Section**
 
 This information is about the Feel Good Gym Contact details
 
-![Landing Page](./media/gym_landing_info.png)
+![Landing Page](./assets/images/testingpart1/features/gym_landing_info.png)
 
 - **People testimonial Section**
 
 This section is for people testimonial about our gym
 
-![Landing Page](./media/gym_landing_testimonial.png)
+![Landing Page](./assets/images/testingpart1/features/gym_landing_testimonial.png)
 
 - **Location map Section**
 
 This section is for the gym location which is just a fictitous one that needs updating with the real one.
 
-![Landing Page](./media/gym_landing_map.png)
+![Landing Page](./assets/images/testingpart1/features/gym_landing_map.png)
 
 - **The Footer**
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](./media/gym_landing_socialmedia.png)
+![Footer](./assets/images/testingpart1/features/gym_landing_socialmedia.png)
 
 - **The Contact Page**
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-![Contact](./media/gym_contact.png)
+![Contact](./assets/images/testingpart1/features/gym_contact.png)
 
 This page will allow you to record and enquire about anything relate to the gym.
 
 - **The Membership Page**
 
-![Membership](./media/gym_membership1.png)
+![Membership](./assets/images/testingpart1/features/gym_membership1.png)
 
-![Membership](./media/gym_membership2.png)
-![Membership](./media/gym_membership3.png)
-![Membership](./media/gym_membership4.png)
+![Membership](./assets/images/testingpart1/features/gym_membership2.png)
+![Membership](./assets/images/testingpart1/features/gym_membership3.png)
+![Membership](./assets/images/testingpart1/features/gym_membership4.png)
 
 - **The Classes Page**
 
-![Classes](./media/gym_classesintro.png)
+![Classes](./assets/images/testingpart1/features/gym_classesintro.png)
 
-![Classes](./media/gym_classes_timetable.png)
+![Classes](./assets/images/testingpart1/features/gym_classes_timetable.png)
 
 - **The Instructor Booking Page**
 
-![Instructor](./media/gym_instructor_booking.png)
+![Instructor](./assets/images/testingpart1/features/gym_instructor_booking.png)
 
 - **The Gallery Page**
 
-![Gallery](./media/gym_gallery1.png)
+![Gallery](./assets/images/testingpart1/features/gym_gallery1.png)
 
-![gallery](./media/gym_gallery2.png)
+![gallery](./assets/images/testingpart1/features/gym_gallery2.png)
 
-![gallery](./media/gym_gallery3.png)
-
-![gallery](./media/gym_gallery4.png)
+![gallery](./assets/images/testingpart1/features/gym_gallery3.png)
 
 ### Testing
 
@@ -128,7 +126,7 @@ D. **Laptop Resolution 1044x520**
 ![home page](./assets/images/testingpart1/home/homepagelaptop1large.PNG)
 
 E. **TV Monitor**
-![TV Monitor](./assets/images/testingpart1/image.png)
+![TV Monitor](./assets/images/testingpart1/home/screenresolution.png)
 
 ## Aboutus page
 
@@ -410,6 +408,9 @@ The live link can be found here - https://Moh2700.github.io/gym/index.html
 
 ## Credits
 
+code taken from w3 schools for image rendering in the css file for gallery page.
+![W3 Schools](https://www.w3schools.com/)
+
 ### Content
 
 **Bootstrap**
@@ -423,7 +424,7 @@ The live link can be found here - https://Moh2700.github.io/gym/index.html
 The icons in the footer were taken from
 
 - [Font Awesome site] (https://fontawesome.com/)
-- [Font awesome file] Javascript file to allow you to interact with fontawesome icons ("https://kit.fontawesome.com/dadada79ef.js")
+- [Font awesome file] Javascript file fontawesome icons ("https://kit.fontawesome.com/dadada79ef.js")
 
 ### Media
 
