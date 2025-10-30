@@ -408,8 +408,8 @@ The live link can be found here - https://Moh2700.github.io/gym/index.html
 
 ## Credits
 
-code taken from w3 schools for image rendering in the css file for gallery page.
-![W3 Schools](https://www.w3schools.com/)
+This code is taken taken from w3 schools for image rendering in the css file for gallery page.
+![W3 Schools] (https://www.w3schools.com/)
 
 ### Content
 
@@ -431,8 +431,8 @@ The icons in the footer were taken from
 - **Pexels and Unsplash website**
 
 - The photos were taken from from This Open Source site
-  [Pexels Site]("https://www.pexels.com/search/gym/") and
-  [Unsplash Site]("https://unsplash.com/s/photos/gym")
+  [Pexels Site] ("https://www.pexels.com/search/gym/") and
+  [Unsplash Site] ("https://unsplash.com/s/photos/gym")
 
 - The photos used in the home, classes and aboutus page.
 - The photos used on the home page .
