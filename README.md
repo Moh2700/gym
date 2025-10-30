@@ -4,10 +4,6 @@ At Feel Good Gym, we believe that fitness is more than just exercise — it’s 
 
 Regular workouts help you build muscle, burn fat, and improve flexibility, but the real benefits go beyond the mirror. Staying active boosts your mood, sharpens focus, and reduces stress, helping you feel better every day. Whether you enjoy lifting weights, joining group classes, or taking part in personal training sessions, every movement brings you one step closer to your goals.
 
-Nutrition, rest, and mindset are just as important. That’s why we encourage a holistic approach — combining effective training programs with healthy eating habits and proper recovery. Our certified trainers and nutrition advisors are here to guide you, motivate you, and make sure your fitness journey is safe and enjoyable.
-
-At Feel Good Gym, we’re not just helping you get fit — we’re helping you build a stronger, healthier version of yourself.
-
 # Gym User Story
 
 As a gym member I want view the available gym membership plans offered by the Feel Good Gym in order to choose the best one for me. View the gym's schedule that I can plan my visits to the gym. Choose the right trainers for my projected goals for my training. Read people testimonials or reviews so that I can make my own decision to suit my needs. View gym classes and book gym instructor. Contact the gym easily via a form so that I can ask questions. View photos and videos of the gym so that I can get a feel and a sense of the gym environment suitable for me.
@@ -65,8 +61,6 @@ This page will allow you to record and enquire about anything relate to the gym.
 
 - **The Membership Page**
 
-  - This page will allow the user to show the different deals that available when joinning the feel good gym.
-
 ![Membership](./media/gym_membership1.png)
 
 ![Membership](./media/gym_membership2.png)
@@ -92,28 +86,6 @@ This page will allow you to record and enquire about anything relate to the gym.
 ![gallery](./media/gym_gallery3.png)
 
 ![gallery](./media/gym_gallery4.png)
-
-### Features Not implemented at this stage
-
-# Gym User Nutrition Story
-
-As a gym member, I want to view my daily meals and see how they align with my fitness goals (e.g., muscle gain, fat loss, maintenance). Make proper decisions regarding my food diet to improve my performance and results in the gym.
-
-# Gym Nutritionist Story
-
-As a gym nutritionist, I want to view my clients daily meals and see how they align with their fitness program. Create and assign meal plans to individual clients that includes calories, meal timing and varieties. View client meal profiles such as goals, preferences and allergies. Send client reports about their nutrition activities.
-
-# Gym Instructor Story
-
-As a gym instructor member I want to view my class schedule so that I can manage my time. View who is registered for my classes so that I can prepare my classes accordingly. Update my program and specialties so that members know what I can offer. Track client progress so that I can provide better guidance. Send messages or updates to my clients to keep them engagged in the process
-
-# Gym Admin Story
-
-As an gym admin I want to manage membership plans and pricing so that I can adjust them as needed. View all bookings and cancellations so I can manage gym capacity. Add, remove instructors to keep the site up-to-date. Generate reports on user activities and revenus that we can track performance. Manage website content, offers and announcements easily.
-
-# Gym User Payment Story
-
-As a gym user I want to pay for my membership online so that I can save time. Update my update my payment method so that my membership renews automatically. View payment history and invoices so that I can track financial expenditure in the gym.
 
 ### Testing
 
@@ -208,6 +180,7 @@ This screen shot is for testing my site using tablet screen resolution shown on 
 ![Contact](./assets/images/testingpart1/contact/contactpage_tablet1.PNG)
 
 C. **Laptop Resolution 1024x520**
+![Contact](./assets/images/testingpart1/contact/contactpage_laptop_1.PNG)
 
 D.**Test Result for Contact page**
 
@@ -240,6 +213,11 @@ B. **Tablet Resolution 768x520**
 
 C. **Laptop Resolution 1024x520**
 
+![Membership](./assets/images/testingpart1/membership/membershippage_laptop_1.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_laptop_2.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_laptop_3.PNG)
+![Membership](./assets/images/testingpart1/membership/membershippage_laptop_4.PNG)
+
 ## Classes page
 
 A. **Mobile**
@@ -251,13 +229,20 @@ A. **Mobile**
 
 2.  **Medium Mobile Resolution 375x520**
 
+![Classes](./assets/images/testingpart1/classes/classespage_med_mobile_1.PNG)
+![Classes](./assets/images/testingpart1/classes/classespage_med_mobile_2.PNG)
+
 3.  **Large Mobile Resolution 425x520**
+    ![Classes](./assets/images/testingpart1/classes/classespage_lg_mobile_1.PNG)
+    ![Classes](./assets/images/testingpart1/classes/classespage_lg_mobile_2.PNG)
 
 B. **Tablet Resolution 768x520**
 ![Classes](./assets/images/testingpart1/classes/classespage_tablet_1.PNG)
 ![Classes](./assets/images/testingpart1/classes/classespage_tablet_2.PNG)
 
 C. **Laptop Resolution 1024x520**
+![Classes](./assets/images/testingpart1/classes/classespage_laptop_1.PNG)
+![Classes](./assets/images/testingpart1/classes/classespage_laptop_2.PNG)
 
 ## Gallery page
 
@@ -267,14 +252,19 @@ A. **Mobile**
     ![Gallery](./assets/images/testingpart1/gallery/gallerypage_sm_mobile_1.PNG)
 
 2.  **Medium Mobile Resolution 375x520**
+    ![Gallery](./assets/images/testingpart1/gallery/gallerypage_med_mobile_1.PNG)
+    ![Gallery](./assets/images/testingpart1/gallery/gallerypage_med_mobile_2.PNG)
 
 3.  **Large Mobile Resolution 425x520**
+    ![Gallery](./assets/images/testingpart1/gallery/gallerypage_lg_mobile_1.PNG)
+    ![Gallery](./assets/images/testingpart1/gallery/gallerypage_lg_mobile_2.PNG)
 
 B. **Tablet Resolution 768x520**
 
 ![Gallery](./assets/images/testingpart1/gallery/gallerypage_tablet_1.PNG)
 
 C. **Laptop Resolution 1024x520**
+![Gallery](./assets/images/testingpart1/gallery/gallerypage_laptop_1.PNG)
 
 ## Instructor page
 
@@ -284,12 +274,16 @@ A. **Mobile**
     ![Instructor](./assets/images/testingpart1/instructor/instructorpage_sm_mobile_1.PNG)
 
 2.  **Medium Mobile Resolution 375x520**
+    ![Instructor](./assets/images/testingpart1/instructor/instructorpage_med_mobile_1.PNG)
 
 3.  **Large Mobile Resolution 425x520**
+    ![Instructor](./assets/images/testingpart1/instructor/instructorpage_lg_mobile_1.PNG)
 
 B. **Tablet Resolution 768x520**
+![Instructor](./assets/images/testingpart1/instructor/instructorpage_tablet_mobile_1.PNG)
 
 C. **Laptop Resolution 1024x520**
+![Instructor](./assets/images/testingpart1/instructor/instructorpage_laptop_mobile_1.PNG)
 
 ### Validator Testing
 
@@ -301,6 +295,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/index.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_index.PNG)
 
 ## aboutus page
@@ -309,6 +304,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/aboutus.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_aboutus.PNG)
 
 ## Instructor page
@@ -317,6 +313,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/instructor.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_instructor.PNG)
 
 ## Contact page
@@ -325,6 +322,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/contact.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_contact.PNG)
 
 ## Classes page
@@ -333,6 +331,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/classes.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_classes.PNG)
 
 ## Membership page
@@ -341,6 +340,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/membership.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_membership.PNG)
 
 ## Gallery page
@@ -349,6 +349,7 @@ C. **Laptop Resolution 1024x520**
    [W3C validator](https://validator.w3.org/nu/?doc=https://Moh2700.github.io/gym/gallery.html)
 
 2. **Evidence**
+
    ![Validation](./assets/images/testingpart1/validation/htmlvalid_gallery.PNG)
 
 **CSS Validation**
@@ -358,6 +359,37 @@ C. **Laptop Resolution 1024x520**
 
 2. ![Validation](./assets/images/testingpart1/validation/cssvalidation.PNG)
 
+### Features Not implemented at this stage
+
+# Gym User Nutrition Story
+
+As a gym member, I want to view my daily meals and see how they align with my fitness goals (e.g., muscle gain, fat loss, maintenance). Make proper decisions regarding my food diet to improve my performance and results in the gym.
+
+# Gym Nutritionist Story
+
+As a gym nutritionist, I want to view my clients daily meals and see how they align with their fitness program. Create and assign meal plans to individual clients that includes calories, meal timing and varieties. View client meal profiles such as goals, preferences and allergies. Send client reports about their nutrition activities.
+
+# Gym Instructor Story
+
+As a gym instructor member I want to view my class schedule so that I can manage my time. View who is registered for my classes so that I can prepare my classes accordingly. Update my program and specialties so that members know what I can offer. Track client progress so that I can provide better guidance. Send messages or updates to my clients to keep them engagged in the process
+
+# Gym Admin Story
+
+As an gym admin I want to manage membership plans and pricing so that I can adjust them as needed. View all bookings and cancellations so I can manage gym capacity. Add, remove instructors to keep the site up-to-date. Generate reports on user activities and revenus that we can track performance. Manage website content, offers and announcements easily.
+
+# Gym User Payment Story
+
+As a gym user I want to pay for my membership online so that I can save time. Update my update my payment method so that my membership renews automatically. View payment history and invoices so that I can track financial expenditure in the gym.
+
+# Classes page
+
+In this section the user will make a selection based on the week day and the table below will automatically update the display showing the classes available along side their instructors and timing. But this feature is left for future implementation because of the limitations of **[CSS/HTML]**. The user interaction requires higher technology such as javascript to be able to offer better human interaction with the system.
+
+# Membership
+
+This page will allow the user to show the different deals that available when joinning the feel good gym.
+In the membership last section the user can make a selection on **[Happy Deal]** or **[Ulitimate Deal]**. The selection changes to orange color indicating the user made their choice of deals but at the moment nothing will happen which I left it to future development. The user interaction requires higher technology such as javascript to be able to offer better human interaction with the system.
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
@@ -366,7 +398,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
+
+![Deployment](./assets/images/testingpart1/deployment/settingstab.PNG)
+
 - From the source section drop-down menu, select the Master Branch
+  ![Deployment](./assets/images/testingpart1/deployment/branch2.PNG)
+
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://Moh2700.github.io/gym/index.html
@@ -399,22 +436,3 @@ The icons in the footer were taken from
 - The photos used in the home, classes and aboutus page.
 - The photos used on the home page .
 - The images used for the gallery page.
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
-
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
